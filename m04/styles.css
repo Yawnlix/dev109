@@ -1,1 +1,89 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #18005c;
+  text-align: center;
+}
 
+body {
+  width: 90%;
+  margin: 0 auto;
+    background-image: url("https://wallpapers.com/images/featured-full/1920-x-1080-hd-1qq8r4pnn8cmcew4.jpg");
+
+}
+
+#content {
+  overflow: auto;
+
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+  
+}
+
+.column1 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+   height: 10em;
+  margin-bottom: 1em;
+   background-color: #ff69b4;
+}
+
+.column2 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+   height: 10em;
+  margin-bottom: 1em;
+   background-color: #d47eef;
+}
+
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+   height: 10em;
+  margin-bottom: 1em;
+   background-color: #d53bba;
+}
+
+
+.column3 {
+  margin-right: 0%;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+
+#feature {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
+
+#feature {
+ background-color: #2CC24E;
+ background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2016-12/13/11/asset/buzzfeed-prod-fastlane02/sub-buzz-15909-1481645256-5.png?downsize=700%3A%2A&output-quality=auto&output-format=auto");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
+
+#nav, #footer {
+   background-color: #e3c9ff;
+}
+
+h1{
+  font-family: 'GrotesqueBourgeoisieRegular';
+   font-weight: bold;
+   font-style: normal;
+  color: #fbffde;
+    
+}
