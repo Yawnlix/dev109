@@ -6,6 +6,7 @@ background: #e5e5e5;
 color: #3f3f3f;
 font-size: 16px;
 line-height: 24px;
+  
 }
 
 a { color: #000088; }
@@ -118,3 +119,15 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
+
+.container {
+  columns: 2;
+}
+
+.CSS {
+  break-before: column;
+}
+
+#validated {
+  background-color :#7290b5;
+}
