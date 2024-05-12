@@ -93,4 +93,3 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
 
   document.getElementById("downRight").innerHTML = rLine;
 }
- <script src="index.js"></script>
