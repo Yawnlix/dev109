@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>I Spy Game</title>
+</head>
+<body>
+  <h1>I Spy Game</h1>
+  <div class="container">
+    <p>See if you can find the following objects on the picture. Once you find them, click on them!</p>
+    <ul id="item-list">
+      <li id="item1">Car</li>
+      <li id="item2">Dinosaur</li>
+      <li id="item3">Mickey</li>
+      <li id="item4">Lady Bug</li>
+      <li id="item5">Skeleton</li>
+     </ul>
+  <div class="image-container">
+    <img src="https://live.staticflickr.com/3249/5862194692_f6a4f87feb_b.jpg" usemap="#image-map">
+    <map name="image-map">
+      <area id="car" alt="Car" coords="306,106,238,35" shape="rect">
+      <area id="dinosaur" alt="Dinosaur" coords="716,20,858,90" shape="rect">
+      <area id="mickey" alt="Mickey" coords="206,540,78" shape="circle">
+      <area id="ladyBug" alt="Lady Bug" coords="93,306,41" shape="circle">
+      <area id="skeleton" alt="Skeleton" coords="560,382,613,492,696,437,626,346,599,350" shape="poly">
+    </map>
+  </div>
+  <button id="replay-btn" style="display:none;" onclick="replay()">Play Again?</button>
+  </div>
+  <script src="javascript/script.js"></script>
+</body>
+</html>
