@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slideshow-container {
+  text-align: center;
+}
+
+#slideshow-image {
+  width: 1080px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.validator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
