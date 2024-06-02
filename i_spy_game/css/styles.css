@@ -1,0 +1,36 @@
+body {
+  background-color: #D499FF;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1, p {
+  font-family: 'arial black', serif;
+  margin-top:0px;
+}
+
+.image-container {
+  border-style: solid;
+}
+
+#item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#item-list li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
