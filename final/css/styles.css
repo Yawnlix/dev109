@@ -148,7 +148,7 @@ border-top: 1px solid #1f1f1f;
   color: #880000;
 }
 
-#artifact_pics, #module_pics {
+.artifact_pics, .module_pics {
   width: 600px;
 }
 
