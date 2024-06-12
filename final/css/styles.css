@@ -176,3 +176,14 @@ border-top: 1px solid #1f1f1f;
 #thankyou {
   text-align: center;
 }
+
+#trailer, #tennis_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#tennis_pic {
+  width: 480px;
+  height: 315px;
+}
