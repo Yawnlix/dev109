@@ -75,8 +75,6 @@ margin: 30px 20px 20px 0;
 font-weight: normal; background: #5f5f5f; color: #fff; padding: 10px; margin: 10px 0; 
 }
 #menu ul { 
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
 border-radius: 10px;
 
 list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
@@ -84,8 +82,7 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
 #menu ul li a { color: #12c; text-decoration: none; border-bottom: 1px dotted #12c; }
 #menu ul li a:hover { color: #c12; border-bottom: 1px dotted #c12; }
 
-#content { 
-  float: center; 
+#content {  
   width: 650px; 
   margin: 10px 0 40px 140px;
 }
@@ -138,10 +135,6 @@ border-top: 1px solid #1f1f1f;
   columns: 2;
 }
 
-.CSS {
-  break-before: column;
-}
-
 #validate, #home, #about, #artifacts, #thanks, #courses, #creative,
 #modules, #contact, #portfolio {
   background-image:url("https://wallpapers.com/images/hd/1920-x-1080-hd-ydvvfje0bdoimttn.jpg");
@@ -172,4 +165,15 @@ border-top: 1px solid #1f1f1f;
 #tennis_pic {
   width: 480px;
   height: 315px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
