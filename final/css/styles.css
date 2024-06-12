@@ -5,7 +5,6 @@ font-style: normal;
 margin: 0;
 padding: 0; 
 background: #e5e5e5;
-color: #3f3f3f;
 font-size: 16px;
 line-height: 24px;
   
@@ -36,7 +35,7 @@ border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 
 background: #f9f9f9;
-padding: 20px 0 40px 0;
+padding: 20px 0 20px 0;
 }
 #header h1 {
 margin: 0;
@@ -95,20 +94,34 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
 #menu ul li a { color: #12c; text-decoration: none; border-bottom: 1px dotted #12c; }
 #menu ul li a:hover { color: #c12; border-bottom: 1px dotted #c12; }
 
-#content { float: left; width: 580px; margin: 10px 0 40px 20px;}
-#content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
-#content h3 { font-size: 17px; font-weight: normal; }
-
-#drink {
-  width: 650px;
+#content { 
+  float: center; 
+  width: 650px; 
+  margin: 10px 0 40px 140px;
 }
 
-#tea {
+#content h2 { 
+  font-weight: normal; 
+  font-size: 22px; 
+  line-height: 33px; 
+}
+
+#content h3 { 
+  font-size: 17px; 
+  font-weight: normal; 
+}
+
+#pikachu {
   width: 350px;
 }
 
-.cleft { float: left; width: 280px; margin: 10px 0; }
-.cright { float: right; width: 280px; margin: 10px 0; }
+
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
 
 #footer { 
 -webkit-border-bottom-right-radius: 10px;
@@ -139,8 +152,8 @@ border-top: 1px solid #1f1f1f;
 }
 
 #validate, #home, #about, #artifacts, #thanks, #courses, #creative,
-#modules, #contact {
-  background-color :#7290b5;
+#modules, #contact, #portfolio {
+  background-image:url("https://wallpapers.com/images/hd/1920-x-1080-hd-ydvvfje0bdoimttn.jpg");
 }
 
 #screenshot {
