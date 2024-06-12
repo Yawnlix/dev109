@@ -111,10 +111,15 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
   font-weight: normal; 
 }
 
-#pikachu {
+#pikachu, #squirtle {
   width: 350px;
 }
 
+#snorlax {
+  width: 350px;
+  float: right;
+  margin-top: -270px;
+}
 
 .center { 
   display: block;
@@ -158,4 +163,8 @@ border-top: 1px solid #1f1f1f;
 
 #screenshot {
   width: 450px;
+}
+
+.active {
+  color: #880000;
 }
