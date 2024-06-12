@@ -111,7 +111,7 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
   font-weight: normal; 
 }
 
-#pikachu, #squirtle, #charmander {
+#pikachu, #squirtle, #charmander, #thumbs_up_cat {
   width: 350px;
 }
 
@@ -171,4 +171,8 @@ border-top: 1px solid #1f1f1f;
 
 #artifact_pics, #module_pics {
   width: 600px;
+}
+
+#thankyou {
+  text-align: center;
 }
